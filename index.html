@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Portal de Noticías Galactica</title>
+    <!--Não esqueça de colocar o defer, quando for atributo-->
+    <script src="src/components/CardNews.js" defer></script>
+    <script src="src/components/TituloDinamico.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <card-news
+        autor="Natan Andrade"
+        title="Darth Vader Contrata Devs"
+        href="www.google.com"
+        content="Darth Vader procura desenvolvedores que sabem trabalhar com
+      componentes."
+        src-img="assets/img/Darth-Vader-em-Star-Wars-Reproducao-1200x900-1.webp"
+        alt-img="Darth Vader"
+      ></card-news>
+      <card-news
+        autor=""
+        title="Teste"
+        href="www.google.com"
+        content="Noticías"
+        src-img=""
+        alt-img="Darth Vader"
+      ></card-news>
+    </div>
+  </body>
+</html>
